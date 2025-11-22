@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cuestionario-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.pregunta {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.pregunta label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Sección de Resultados */
+.resultado {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+}
+
+/* Ocultar todos los contenedores de premios inicialmente */
+.premio-box {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e9ecef;
+}
+
+.premio-box p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Estilos específicos para los premios (opcional) */
+#premio-maximo { background-color: #d4edda; color: #155724; }
+#premio-secundario { background-color: #fff3cd; color: #856404; }
+#imagen-perdedor { background-color: #f8d7da; color: #721c24; }
